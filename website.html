@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorful Cases</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom font for a clean look */
+        body {
+            font-family: "Inter", sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-purple-100 via-pink-100 to-blue-100 min-h-screen flex flex-col items-center justify-center p-4">
+
+    <header class="mb-10 text-center">
+        <h1 class="text-5xl font-extrabold text-gray-800 tracking-tight leading-tight">
+            Colorful Cases
+        </h1>
+        <p class="text-xl text-gray-600 mt-2">Find your perfect phone case!</p>
+    </header>
+
+    <main class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl w-full">
+        <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col items-center transform transition-transform duration-300 hover:scale-105 hover:shadow-xl">
+            <img src="case yellow.png" alt="Vibrant Yellow iPhone Case" class="w-48 h-48 object-contain mb-6 rounded-lg shadow-md">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-2">Sunny Yellow Case</h2>
+            <p class="text-gray-600 text-center mb-6">Brighten up your day with this cheerful yellow case. Perfect fit and protection.</p>
+            <button class="buy-button bg-gradient-to-r from-orange-500 to-red-600 text-white font-bold py-3 px-8 rounded-full shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-green-300">
+                Buy Now
+            </button>
+        </div>
+
+        <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col items-center transform transition-transform duration-300 hover:scale-105 hover:shadow-xl">
+            <img src="case blue.png" alt="Cool Blue iPhone Case" class="w-48 h-48 object-contain mb-6 rounded-lg shadow-md">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-2">Ocean Blue Case</h2>
+            <p class="text-gray-600 text-center mb-6">Dive into style with this serene blue case. Durable and sleek design.</p>
+            <button class="buy-button bg-gradient-to-r from-blue-500 to-indigo-600 text-white font-bold py-3 px-8 rounded-full shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-blue-300">
+                Buy Now
+            </button>
+        </div>
+
+        <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col items-center transform transition-transform duration-300 hover:scale-105 hover:shadow-xl">
+            <img src="case pink.png" alt="Chic Pink iPhone Case" class="w-48 h-48 object-contain mb-6 rounded-lg shadow-md">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-2">Blush Pink Case</h2>
+            <p class="text-gray-600 text-center mb-6">Add a touch of elegance with this lovely pink case. Fashionable and protective.</p>
+            <button class="buy-button bg-gradient-to-r from-pink-500 to-red-600 text-white font-bold py-3 px-8 rounded-full shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-pink-300">
+                Buy Now
+            </button>
+        </div>
+    </main>
+
+    <footer class="mt-10 text-gray-600 text-sm">
+        <p>&copy; 2025 Colorful Cases. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+
